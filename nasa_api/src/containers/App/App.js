@@ -2,14 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../assets/images/logo.svg';
 import './App.css';
 
-import 
-
 class App extends Component {
-
-
-	fetchDataFromApi () {
-
-	}
 
 	render() {
 		return (

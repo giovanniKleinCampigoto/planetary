@@ -1,8 +1,6 @@
 
 import axios from 'axios'
 
-import API_KEY from './constants'
-
 const BASE_URL = "https://api.nasa.gov/planetary/"
 
 class Api {
@@ -10,3 +8,5 @@ class Api {
         return axios.get(`${BASE_URL}${uri}`)
     }
 }
+
+export default Api
